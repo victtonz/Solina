@@ -1,0 +1,397 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    max-width: 100%;
+}
+
+header {
+    padding: 1em;
+}
+
+header .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.links {
+    display: flex;
+    gap: 1em;
+}
+
+.links p a {
+    text-decoration: none;
+    color: black;
+}
+
+.text p span {
+    font-weight: bold;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.nav-links {
+    display: flex;
+    gap: 5em;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 2em;
+}
+
+.nav-links ul li {
+    list-style: none;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.profile-links {
+    display: flex;
+    gap: 2em;
+}
+
+.profile-links a i {
+    color: black;
+}
+
+.img-1 img,
+.img-2 img,
+.img-3 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.flex-container {
+    display: flex;
+    gap: 2em;
+}
+
+.hero-section {
+    padding: 1em;
+}
+
+.circles {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 2em;
+
+}
+
+.circle-1 {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.circle-2 {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: gainsboro;
+}
+
+.circle-3 {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: gainsboro;
+}
+
+.coupon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5em;
+    background-color: gainsboro;
+    padding: 5em;
+}
+
+.coupon-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.coupon .button a button {
+    background-color: black;
+    color: white;
+    padding: 0.6em 2.5em;
+    border: 0;
+    font-size: 1.3rem;
+}
+
+.coupon .button a button:hover {
+    background-color: red;
+    transition: 2s;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    padding: 1em;
+    letter-spacing: 5px;
+}
+
+.shoes {
+    display: flex;
+    width: 100%;
+    padding: 2%;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    gap: 1.5em;
+}
+
+.box-2 {
+    display: flex;
+    width: 100%;
+    padding: 1%;
+    justify-content: space-between;
+    gap: 1.5em;
+}
+
+.Ending {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    padding: 2em 0;
+    margin: 8em 1em 0;
+    border-top: 0.1px solid black;
+}
+
+.footer-container {
+    max-width: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 6em;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-size: large;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-section.contact p {
+    margin-bottom: 10px;
+}
+
+.Copyright p {
+    margin: 10px;
+    padding: 10px;
+    color: #ccc;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    padding: 1em;
+}
+
+header .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.links {
+    display: flex;
+    gap: 1em;
+}
+
+.links p a {
+    text-decoration: none;
+ 0   color: black;
+}
+
+.text p span {
+    font-weight: bold;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.nav-links {
+    display: flex;
+    gap: 5em;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 2em;
+}
+
+.nav-links ul li {
+    list-style: none;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.profile-links {
+    display: flex;
+    gap: 2em;
+}
+
+.profile-links a i {
+    color: black;
+}
+
+/* HEAD-SECTION STYLING */
+/* .img-1 img,
+.img-2 img,
+.img-3 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.flex-container {
+    display: flex;
+    gap: 2em;
+}
+
+.hero-section {
+    padding: 1em;
+}
+
+.circles {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.circles-1 {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.circles-2 {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: gainsboro;
+}
+
+.circles-3 {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: gainsboro;
+}
+
+
+.coupons {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5em;
+    margin: 5em;
+    background-color: gainsboro;
+}
+
+.coupons-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.coupons .button a button {
+    background-color: black;
+    color: white;
+    padding: 0.6em, 2.5em;
+    border: 0;
+    font-size: 1.3rem;
+}
+
+.coupons .button a button:hover {
+    background-color: red;
+}
+
+.h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.p {
+    padding-right: 2em;
+}
+
+@media only screen and(max-width:834px) {
+    .hero-section.flex-container {
+        flex-direction: column;
+    }
+}
+.coupons{
+    margin: 2em;
+    padding: 1.5em;
+}
+.coupons-text{
+    font-size: 2rem;
+}
+.products .flex-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+} */
